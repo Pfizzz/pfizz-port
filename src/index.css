@@ -5,7 +5,10 @@
 body {
   font-family: sans-serif;
   margin: 3rem;
-  background-image: #ce2121;
+  background-image: url('https://github.com/Pfizzz/pfizz-port/blob/styling/src/images/parchment-background.jpg?raw=true');
+  background-size: cover;
+  overflow-y: scroll;
+
 }
 
 h1, h2 {
