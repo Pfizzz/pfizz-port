@@ -29,7 +29,7 @@ function ContactForm() {
     <Card>
       <form className={classes.form} onSubmit={submitHandler}>
         <div className={classes.control}>
-          <label htmlFor="title">Meetup Title</label>
+          <label htmlFor="title">Message Title</label>
           <input type="text" required id="title" ref={titleInputRef}/>
         </div>
         <div className={classes.control}>
@@ -41,7 +41,7 @@ function ContactForm() {
           <input type="text" required id="address" ref={addressInputRef}/>
         </div>
         <div className={classes.control}>
-          <label htmlFor="description">Description</label>
+          <label htmlFor="description">Message</label>
           <textarea id="description" required rows='5' ref={descriptionInputRef}></textarea>
         </div>
         <div className={classes.actions}>

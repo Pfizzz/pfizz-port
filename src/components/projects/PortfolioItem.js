@@ -12,9 +12,10 @@ function PortfolioItem(props) {
             <h3>{props.title}</h3>
             <address>{props.address}</address>
             <p>{props.favorites}</p>
+            <description>{props.description}</description>
         </div>
         <div className={classes.actions}>
-            <button>To Favorites</button>
+            <button>Visit</button>
         </div>
         </Card>
     </li> )
