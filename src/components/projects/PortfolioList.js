@@ -1,11 +1,11 @@
-import classes from "./MeetupList.module.css";
-import MeetupItem from "./MeetupItem";
+import classes from "./PortfolioList.module.css";
+import PortfolioItem from "./PortfolioItem";
 
-function MeetupList(props) {
+function PortfolioList(props) {
   return (
     <ul className={classes.list}>
       {props.items.map((item) => (
-        <MeetupItem 
+        <PortfolioItem 
         key={item.id} 
         id={item.id} 
         image={item.image}
@@ -18,4 +18,4 @@ function MeetupList(props) {
   );
 }
 
-export default MeetupList;
+export default PortfolioList;

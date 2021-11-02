@@ -1,7 +1,7 @@
-import classes from './MeetupItem.module.css'
+import classes from './PortfolioItem.module.css'
 import Card from '../ui/Card';
 
-function MeetupItem(props) {
+function PortfolioItem(props) {
     return (
     <li className={classes.item}>
         <Card>
@@ -20,4 +20,4 @@ function MeetupItem(props) {
     </li> )
 }
 
-export default MeetupItem;
+export default PortfolioItem;
