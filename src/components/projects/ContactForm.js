@@ -14,13 +14,13 @@ function ContactForm() {
         const enteredEmail = emailInputRef.current.value;
         const enteredDescription = descriptionInputRef.current.value;
 
-        const meetupData = {
+        const contactData = {
             title: enteredTitle,
             email: enteredEmail,
             description: enteredDescription,
         };
 
-        console.log(meetupData);
+        console.log(contactData);
     }
   return (
     <Card>
