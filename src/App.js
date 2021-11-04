@@ -11,6 +11,8 @@ function App() {
     <Switch>
       <Route path='/' exact><AboutMe/>
       </Route>
+      <Route path='/about'><AboutMe/>
+      </Route>
       <Route path='/portfolio' exact>
         <PortfolioPage />
       </Route>
