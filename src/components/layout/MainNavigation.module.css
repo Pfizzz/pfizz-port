@@ -10,6 +10,9 @@
     padding: 0 10%;
   }
   
+  .isActive {
+    color: white !important;
+  }
   .logo {
     font-size: 2rem;
     color: white;
@@ -33,10 +36,13 @@
     font-size: 1.5rem;
     color: #fcb8d2;
   }
-  
-  .header a:hover,
-  .header a:active,
-  .header a.active {
+/* 
+  .isActive {
+    font-size: 50px;
+  } */
+
+  .header a:hover
+   {
     color: white;
   }
   
