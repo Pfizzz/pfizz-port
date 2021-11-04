@@ -1,5 +1,10 @@
 .card {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.849);
     border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    opacity: .9;
   }
+
+.card img {
+  max-height: 95%;
+}
