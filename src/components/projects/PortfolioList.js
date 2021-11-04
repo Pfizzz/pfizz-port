@@ -12,6 +12,7 @@ function PortfolioList(props) {
         title={item.title}
         address={item.address}
         description={item.description}
+        link={item.link}
         />
       ))}
     </ul>

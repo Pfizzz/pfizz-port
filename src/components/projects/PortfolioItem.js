@@ -13,9 +13,7 @@ function PortfolioItem(props) {
             <address>{props.address}</address>
             <p>{props.favorites}</p>
             <description>{props.description}</description>
-        </div>
-        <div className={classes.actions}>
-            <button>Visit</button>
+            <p>{props.link}</p>
         </div>
         </Card>
     </li> )
