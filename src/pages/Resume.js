@@ -1,5 +1,10 @@
+import resume from '../images/resume.png'
+import classes from '../components/layout/MainNavigation.module.css';
+
 function ResumePage() {
-    return <div>Resume</div>
+    return <div>
+        <img src={resume} className={classes.logo1}/>
+    </div>
 }
 
 export default ResumePage;

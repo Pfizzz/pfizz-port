@@ -1,12 +1,22 @@
 import { NavLink } from 'react-router-dom'
 import classes from './MainNavigation.module.css'
+import logo from '../../images/logo1.png';
 function MainNavigation() {
  return (
  <header className={classes.header}>
-     <div className={classes.logo}>Michael Pfister</div>
+             
+             {/* <img src={logo} className={classes.logo}/> */}
+
+             <p className={classes.logo}>Michael Pfister
+  
+  </p>
      <nav>
+
+         
          <ul>
+
          <li>
+             
                  <NavLink   activeClassName={classes.isActive} to='/about'>About Me</NavLink>
              </li>
              <li>
@@ -18,6 +28,7 @@ function MainNavigation() {
              <li>
                  <NavLink   activeClassName={classes.isActive} to='/resume'>Resume</NavLink>
              </li>
+
          </ul>
      </nav>
 
