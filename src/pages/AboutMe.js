@@ -1,9 +1,15 @@
+import logo from '../images/logo1.png';
+
 function AboutMe() {
     return (
         <div>
+            <img src={logo}/>
             <h1>About me</h1>
             <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Hello there!</p>
+
+            <p>My name is Michael Pfister, and I am a student in the Rutger's University Coding Bootcamp specializing in JavaScript-focused fullstack web development.</p>
+            <p> In addition to my anticipated certificate of completion for my bootcamp, I have earned a Master's of Fine Arts in Creative Writing from Rosemont College, and two Bachelor's from Rowan University in Writing Arts and Radio/Television/Film. My goal is to implement my diverse background in a career with web design and full-stack web development. My unique creative skillset makes me a valuable addition to any team.</p>
             </div>
         </div>
     )

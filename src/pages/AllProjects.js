@@ -77,6 +77,81 @@ const DUMMY_DATA = [
       </a>
     ),
   },
+  {
+    id: "m4",
+    title: "E-Commerce Back End",
+    image:
+      "https://raw.githubusercontent.com/Pfizzz/e-commerce/8154fe19ce3ae41ce6f232853930394348d322e0/images/ss1.png",
+    address: "A node.js application that uses Sequelize for Object-Relational Mapping. Rather than SQL, this app was written in JavaScript.",
+    description: (
+      <a
+        href="https://github.com/Pfizzz/e-commerce"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Github
+      </a>
+    ),
+    link: (
+      <a
+        href="https://www.youtube.com/watch?v=IMnLNtmtzaY"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Demo Video
+      </a>
+    ),
+  },
+  {
+    id: "m5",
+    title: "First Portfolio",
+    image:
+      "https://raw.githubusercontent.com/Pfizzz/Pfizzz.github.io/c050b4c77a62aef40b02ae6fa985296d7bc506eb/assets/images/readme-ss.png",
+    address: "A responsive portofolio page built with flexbox",
+    description: (
+      <a
+        href="https://github.com/Pfizzz/Pfizzz.github.io"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Github
+      </a>
+    ),
+    link: (
+      <a
+        href="https://pfizzz.github.io/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Live Project
+      </a>
+    ),
+  },
+  {
+    id: "m6",
+    title: "Social-Network Back End",
+    image:
+      "https://raw.githubusercontent.com/Pfizzz/social-network/870b6362b9cee4a17d477dc1b2817422435fd985/images/ss1.png",
+    address: "A social network app back-end built with MongoDB",
+    description: (
+      <a
+        href="https://github.com/Pfizzz/social-network"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Github
+      </a>
+    ),
+    link: (
+      <a
+        href="https://www.youtube.com/watch?v=AD9H2H08f_s"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Live Project
+      </a>
+    ),
+  },
 ];
 
 function PortfolioPage() {
