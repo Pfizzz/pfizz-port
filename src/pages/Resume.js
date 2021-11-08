@@ -1,5 +1,9 @@
+import resume from '../images/resume.png'
+
 function ResumePage() {
-    return <div>Resume</div>
+    return <div>
+        <img src={resume}/>
+    </div>
 }
 
 export default ResumePage;
