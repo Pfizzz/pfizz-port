@@ -4,7 +4,7 @@ import classes from'../components/layout/MainNavigation.module.css';
 function AboutMe() {
     return (
         <div>
-            <img className={classes.logo1} src={logo}/>
+            <img className={classes.logo1} src={logo} alt="logo"/>
             <h1>About me</h1>
             <div>
             <p>Hello there!</p>
