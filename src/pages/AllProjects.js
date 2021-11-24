@@ -152,6 +152,31 @@ const DUMMY_DATA = [
       </a>
     ),
   },
+  {
+    id: "m7",
+    title: "OnlyBans",
+    image:
+      "https://camo.githubusercontent.com/e432cdca14d13a0b22d52c4ec645abd25c9b657c515cca1f395ce81efe39fbeb/68747470733a2f2f6f6e6c792d62616e732e6865726f6b756170702e636f6d2f7374617469632f6d656469612f6f6e6c7962616e732e37646436303835632e706e67",
+    address: "A message board for the 'forgotten'",
+    description: (
+      <a
+        href="https://only-bans.herokuapp.com"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Github
+      </a>
+    ),
+    link: (
+      <a
+        href="https://only-bans.herokuapp.com/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        Live Project
+      </a>
+    ),
+  },
 ];
 
 function PortfolioPage() {
