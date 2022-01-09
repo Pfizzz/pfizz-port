@@ -8,3 +8,5 @@
 * LIVE LINK: [Netlify](https://6188837693c9010008b79033--trusting-hugle-935210.netlify.app/)
 
 This is my first attempt to create a portoflio using React. Although I was able to make most of the elements responsive, I am interested in deveoping this project further by implementing a CSS framework to make the site function better on smaller screens. Many of the elements, most obviously the resume, are temporary items to fulfill the requirements of the project.
+
+Test push.
